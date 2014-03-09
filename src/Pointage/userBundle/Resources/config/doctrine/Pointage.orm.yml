@@ -1,0 +1,21 @@
+Pointage\userBundle\Entity\Pointage:
+    type: entity
+    table: null
+    repositoryClass: Pointage\userBundle\Entity\PointageRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        heureE:
+            type: datetime
+            column: heure_e
+        heureS:
+            type: datetime
+            column: heure_s
+        userId:
+            type: integer
+            column: user_id
+    lifecycleCallbacks: {  }
