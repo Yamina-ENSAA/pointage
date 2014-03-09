@@ -1,0 +1,11 @@
+div {
+	background-color: white;
+}
+.header{
+	background:#424242 ;
+	font: 24px arial,sans-serif;
+}
+#content{
+	background:#797979 ;
+	font: 18px arial,sans-serif;
+}

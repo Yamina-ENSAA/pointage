@@ -1,0 +1,12 @@
+{% extends "::base.html.twig" %}
+
+{% block body %}
+Il est 
+<script language="JavaScript">
+d=new Date();
+document.write(d.getHours()+":"+d.getMinutes());
+</script>
+<br>cliquez sur le bouton pour valider votre arrivée
+ <input type="submit" value=" Pointer"/><br/>
+
+{% endblock %}

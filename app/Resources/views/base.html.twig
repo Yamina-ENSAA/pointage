@@ -5,9 +5,17 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <div class="header"><a href="#">Pointage</a>
+        <a href="#">Historique</a>
+        <a href="#">Profil</a>       
+        <a href="#">Deconnection</a></div>
+
         {% block body %}{% endblock %}
+        <div>Footer
+        </div>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
